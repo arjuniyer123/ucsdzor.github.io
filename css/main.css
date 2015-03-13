@@ -1,0 +1,126 @@
+
+      body {
+        padding-top: 20px;
+        padding-bottom: 60px;
+        background-color: black;
+        font-family: 'Oswald', sans-serif;
+      }
+
+      .link
+      {
+            color: #F37026;
+            padding-right: 20px;
+           
+      }
+      .navtab {
+            display:inline; 
+            list-style-type: none
+      }
+
+      .award {
+             
+            list-style-type: none;
+            color: white;
+          
+      }
+
+
+       a:hover {
+    color: white;
+    text-decoration: none;
+     }
+
+     .fot{
+      list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+
+.title{
+   color: #F37026;
+}
+
+.para {
+  color:white;
+}
+
+.social:hover {
+    opacity: .4;
+}
+
+.event:hover {
+    opacity: .2;
+}
+
+
+
+.wrapper {
+    position: relative;
+    padding: 0;
+    width:240px;
+    display:block;
+}
+.text {
+    position: absolute;
+    top: 0;
+    color:black;
+    background-color:rgba(255,255,255,0.8);
+    width: 240px;
+    height: 200px;
+    line-height:20px;
+    text-align: left;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.text:hover {
+    opacity: 1;
+}
+
+    
+     
+      .container {
+        margin: 0 auto;
+        max-width: 1000px;
+        background-color: #141414;
+      }
+      .container > hr {
+        margin: 60px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 40px 0;
+        text-align: left;
+        height: 500px;
+        background-repeat: no-repeat;
+
+      }
+      .jumbotron h1 {
+        font-size: 100px;
+        line-height: 1;
+      }
+      .jumbotron .lead {
+        font-size: 24px;
+        line-height: 1.25;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+
+
+      
